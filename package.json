@@ -1,0 +1,15 @@
+{
+  "name": "walk-around",
+  "version": "1.0.0",
+  "description": "A webcam based project",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd server && npm run dev\" \"cd client && ng serve -o\""
+  },
+  "keywords": [],
+  "author": "Thanh Pham",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.1"
+  }
+}
